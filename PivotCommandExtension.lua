@@ -7,7 +7,8 @@ local function PivotCommandExtension()
 	self.name = "Pivot Command Extension"
 	self.author = "rudyp"
 	self.description = "Provides a !pivot command that shows Pokemon catch locations"
-	self.github = "" -- Add your GitHub repo if you have one
+	self.github = "rudypdev/Pivot-IronmonExtension"
+    self.url = string.format("https://github.com/%s", self.github or "")
 
 	-- Location lookup table (hex value -> location name)
 	-- Only supports LGFR locations, copied from http://bulbapedia.bulbagarden.net/wiki/List_of_locations_by_index_number_in_Generation_III 
@@ -281,6 +282,29 @@ local function PivotCommandExtension()
 		-- Remove our command event
 		EventHandler.removeEvent(self.CommandEvent.Key)
 	end
+
+	function self.checkForUpdates()
+        local versionCheckUrl = string.format(
+                                    "https://api.github.com/repos/%s/releases/latest",
+                                    self.github)
+        local versionResponsePattern = '"tag_name":%s+"%w+(%d+%.%d+)"'
+        local downloadUrl = string.format(
+                                "https://github.com/%s/releases/latest",
+                                self.github)
+        local compareFunc = function(a, b)
+            return a ~= b and not Utils.isNewerVersion(a, b)
+        end
+        local isUpdateAvailable = Utils.checkForVersionUpdate(versionCheckUrl,
+                                                              self.version,
+                                                              versionResponsePattern,
+                                                              compareFunc)
+        return isUpdateAvailable, downloadUrl
+    end
+
+    function self.downloadAndInstallUpdate()
+        local extensionFilenameKey = "PivotCommandExtension"
+        return TrackerAPI.updateExtension(extensionFilenameKey)
+    end
 
 	return self
 end
