@@ -44,32 +44,36 @@ The Pivot Command Extension provides a `!pivot` command with several subcommands
 
    Alternatively, you can copy and paste the link to this github repo into the tracker's GUI.
 
-   <img width="300" height="150" alt="image" src="https://github.com/user-attachments/assets/94f1b611-c650-41ca-a884-679130633f8d" />
- 
-   <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/ee73bfcb-8bd5-406c-a8c7-d7022d9c1bce" />
 
-   <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/652023de-cd83-4e36-b9a2-a208a8287c69" />
+<img width="300" height="150" alt="image" src="https://github.com/user-attachments/assets/8cf50d90-6723-42c5-9eaf-d4cfbc78e387" />
+
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/de2e9238-1264-414e-8a7d-9fda43a9e0f8" />
+
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/4d96138d-8b0d-4d73-9dac-0b1f881ce3fd" />
 
 
-4. Enable the Extension via `Tracker Settings > Extensions`
 
-<img width="300" height="150" alt="image" src="https://github.com/user-attachments/assets/94f1b611-c650-41ca-a884-679130633f8d" />
+3. Enable the Extension via `Tracker Settings > Extensions`
 
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/ee73bfcb-8bd5-406c-a8c7-d7022d9c1bce" />
+<img width="300" height="150" alt="image" src="https://github.com/user-attachments/assets/8cf50d90-6723-42c5-9eaf-d4cfbc78e387" />
 
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/95f24f7b-fb27-4621-a5dd-b2cb2221f2eb" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/de2e9238-1264-414e-8a7d-9fda43a9e0f8" />
 
-<img width="300" height="175" alt="image" src="https://github.com/user-attachments/assets/abc1116f-9efe-4c87-ae98-1f101c3a6627" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/031d752f-b153-409c-bf5f-2d695cd21c09" />
+
+<img width="300" height="175" alt="image" src="https://github.com/user-attachments/assets/1da79f7d-ef28-467a-a90b-61b37c90f27e" />
+
 
 4. Enable the new `!pivot` command in Streaming Settings / Stream Connect
 
-<img width="300" height="150" alt="image" src="https://github.com/user-attachments/assets/94f1b611-c650-41ca-a884-679130633f8d" />
+<img width="300" height="150" alt="image" src="https://github.com/user-attachments/assets/8cf50d90-6723-42c5-9eaf-d4cfbc78e387" />
 
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/012c4051-dc10-4fba-9f6e-c0ff22bc2c64" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/22ea3e85-e7fb-4468-88e3-8452ee48dc9a" />
 
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/d0a9c43d-4d39-43a1-bf21-4d3bfa36a095" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/a8cf585a-a79d-419c-b87d-6e18d884f977" />
 
-<img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/255a2205-18d9-47cd-a787-aeb9b98e975b" />
+<img width="300" height="225" alt="image" src="https://github.com/user-attachments/assets/d14bc0f4-e7e2-4971-8dfd-c065372c2828" />
+
 
 
 ## Changelog
