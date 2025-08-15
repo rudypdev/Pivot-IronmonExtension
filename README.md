@@ -50,8 +50,6 @@ The Pivot Command Extension provides a `!pivot` command with several subcommands
 
    <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/652023de-cd83-4e36-b9a2-a208a8287c69" />
 
-   <img width="300" height="220" alt="image" src="https://github.com/user-attachments/assets/40eed051-d4c9-4e44-9eb6-441f85ff3505" />
-
 
 4. Enable the Extension via `Tracker Settings > Extensions`
 
